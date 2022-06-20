@@ -2,7 +2,7 @@ package model
 
 import (
 	"fmt"
-	commonModel "github.com/6reduk/smsaeroclient/internal/dispatcher/common/model"
+	commonModel "github.com/6reduk/smsaeroclient/smsaero/dispatcher/common/model"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 	"github.com/stretchr/testify/suite"

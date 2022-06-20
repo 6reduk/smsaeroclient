@@ -1,8 +1,8 @@
 package facade
 
 import (
-	"github.com/6reduk/smsaeroclient/internal"
-	"github.com/6reduk/smsaeroclient/internal/httpApiClient"
+	"github.com/6reduk/smsaeroclient/smsaero"
+	"github.com/6reduk/smsaeroclient/smsaero/httpApiClient"
 	"github.com/stretchr/testify/require"
 	"github.com/stretchr/testify/suite"
 	"testing"

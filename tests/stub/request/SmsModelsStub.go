@@ -2,7 +2,7 @@ package requestModelStub
 
 import (
 	"fmt"
-	smsDto "github.com/6reduk/smsaeroclient/internal/dispatcher/sms/model"
+	smsDto "github.com/6reduk/smsaeroclient/smsaero/dispatcher/sms/model"
 )
 
 const (

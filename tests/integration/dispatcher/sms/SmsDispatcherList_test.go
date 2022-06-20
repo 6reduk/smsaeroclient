@@ -3,7 +3,7 @@ package sms
 import (
 	"context"
 	"errors"
-	"github.com/6reduk/smsaeroclient/internal/httpApiClient"
+	"github.com/6reduk/smsaeroclient/smsaero/httpApiClient"
 	requestModelStub "github.com/6reduk/smsaeroclient/tests/stub/request"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"

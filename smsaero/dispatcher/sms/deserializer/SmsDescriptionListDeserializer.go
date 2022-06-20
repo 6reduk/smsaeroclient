@@ -3,9 +3,9 @@ package smsDeserializer
 import (
 	"encoding/json"
 	"fmt"
-	commonDto "github.com/6reduk/smsaeroclient/internal/dispatcher/common/model"
-	smsDto "github.com/6reduk/smsaeroclient/internal/dispatcher/sms/model"
-	apiResponse "github.com/6reduk/smsaeroclient/internal/httpApiClient/response"
+	commonDto "github.com/6reduk/smsaeroclient/smsaero/dispatcher/common/model"
+	smsDto "github.com/6reduk/smsaeroclient/smsaero/dispatcher/sms/model"
+	apiResponse "github.com/6reduk/smsaeroclient/smsaero/httpApiClient/response"
 	"strconv"
 )
 

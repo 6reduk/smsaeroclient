@@ -3,11 +3,11 @@ package smsDispatcher
 import (
 	"context"
 	"fmt"
-	smsDeserializer "github.com/6reduk/smsaeroclient/internal/dispatcher/sms/deserializer"
-	smsDto "github.com/6reduk/smsaeroclient/internal/dispatcher/sms/model"
-	httpClient "github.com/6reduk/smsaeroclient/internal/httpApiClient"
-	apiRequest "github.com/6reduk/smsaeroclient/internal/httpApiClient/request"
-	apiResponse "github.com/6reduk/smsaeroclient/internal/httpApiClient/response"
+	smsDeserializer "github.com/6reduk/smsaeroclient/smsaero/dispatcher/sms/deserializer"
+	smsDto "github.com/6reduk/smsaeroclient/smsaero/dispatcher/sms/model"
+	httpClient "github.com/6reduk/smsaeroclient/smsaero/httpApiClient"
+	apiRequest "github.com/6reduk/smsaeroclient/smsaero/httpApiClient/request"
+	apiResponse "github.com/6reduk/smsaeroclient/smsaero/httpApiClient/response"
 )
 
 const (

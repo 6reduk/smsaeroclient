@@ -3,8 +3,8 @@ package smsDeserializer
 import (
 	"encoding/json"
 	"fmt"
-	smsDto "github.com/6reduk/smsaeroclient/internal/dispatcher/sms/model"
-	apiResponse "github.com/6reduk/smsaeroclient/internal/httpApiClient/response"
+	smsDto "github.com/6reduk/smsaeroclient/smsaero/dispatcher/sms/model"
+	apiResponse "github.com/6reduk/smsaeroclient/smsaero/httpApiClient/response"
 )
 
 func UnmarshalSmsDescription(resp *apiResponse.Response) (*smsDto.SmsDescription, error) {

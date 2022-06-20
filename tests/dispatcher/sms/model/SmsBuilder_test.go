@@ -2,7 +2,7 @@ package model
 
 import (
 	"errors"
-	smsDto "github.com/6reduk/smsaeroclient/internal/dispatcher/sms/model"
+	smsDto "github.com/6reduk/smsaeroclient/smsaero/dispatcher/sms/model"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 	"github.com/stretchr/testify/suite"

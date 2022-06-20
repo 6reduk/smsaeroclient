@@ -3,9 +3,9 @@ package sms
 import (
 	"context"
 	"errors"
-	smsDispatcher "github.com/6reduk/smsaeroclient/internal/dispatcher/sms"
-	smsDto "github.com/6reduk/smsaeroclient/internal/dispatcher/sms/model"
-	"github.com/6reduk/smsaeroclient/internal/httpApiClient"
+	smsDispatcher "github.com/6reduk/smsaeroclient/smsaero/dispatcher/sms"
+	smsDto "github.com/6reduk/smsaeroclient/smsaero/dispatcher/sms/model"
+	"github.com/6reduk/smsaeroclient/smsaero/httpApiClient"
 	clientMock "github.com/6reduk/smsaeroclient/tests/mock/client"
 	responseModelStub "github.com/6reduk/smsaeroclient/tests/stub/model"
 	responseStub "github.com/6reduk/smsaeroclient/tests/stub/response"

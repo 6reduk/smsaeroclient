@@ -2,8 +2,8 @@ package clientMock
 
 import (
 	"context"
-	apiRequest "github.com/6reduk/smsaeroclient/internal/httpApiClient/request"
-	apiResponse "github.com/6reduk/smsaeroclient/internal/httpApiClient/response"
+	apiRequest "github.com/6reduk/smsaeroclient/smsaero/httpApiClient/request"
+	apiResponse "github.com/6reduk/smsaeroclient/smsaero/httpApiClient/response"
 	"github.com/stretchr/testify/mock"
 	"net/http"
 )

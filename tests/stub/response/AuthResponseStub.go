@@ -1,7 +1,7 @@
 package responseStub
 
 import (
-	apiResponse "github.com/6reduk/smsaeroclient/internal/httpApiClient/response"
+	apiResponse "github.com/6reduk/smsaeroclient/smsaero/httpApiClient/response"
 )
 
 func GetAuthSuccessResponse() *apiResponse.Response {

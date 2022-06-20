@@ -3,7 +3,7 @@ package request
 import (
 	"context"
 	"fmt"
-	apiRequest "github.com/6reduk/smsaeroclient/internal/httpApiClient/request"
+	apiRequest "github.com/6reduk/smsaeroclient/smsaero/httpApiClient/request"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 	"github.com/stretchr/testify/suite"

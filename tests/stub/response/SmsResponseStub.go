@@ -2,7 +2,7 @@ package responseStub
 
 import (
 	"encoding/json"
-	apiResponse "github.com/6reduk/smsaeroclient/internal/httpApiClient/response"
+	apiResponse "github.com/6reduk/smsaeroclient/smsaero/httpApiClient/response"
 	responseModelStub "github.com/6reduk/smsaeroclient/tests/stub/model"
 	"strconv"
 )

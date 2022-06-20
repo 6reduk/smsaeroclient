@@ -1,8 +1,8 @@
 package testUtil
 
 import (
-	"github.com/6reduk/smsaeroclient/internal/httpApiClient"
-	apiRequest "github.com/6reduk/smsaeroclient/internal/httpApiClient/request"
+	"github.com/6reduk/smsaeroclient/smsaero/httpApiClient"
+	apiRequest "github.com/6reduk/smsaeroclient/smsaero/httpApiClient/request"
 )
 
 func GetClientFromTestConfig(config *TestConfig) *httpApiClient.Client {

@@ -1,8 +1,8 @@
 package responseModelStub
 
 import (
-	commonModel "github.com/6reduk/smsaeroclient/internal/dispatcher/common/model"
-	smsModel "github.com/6reduk/smsaeroclient/internal/dispatcher/sms/model"
+	commonModel "github.com/6reduk/smsaeroclient/smsaero/dispatcher/common/model"
+	smsModel "github.com/6reduk/smsaeroclient/smsaero/dispatcher/sms/model"
 )
 
 func GetSms() *smsModel.Sms {

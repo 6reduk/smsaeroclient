@@ -3,8 +3,8 @@ package auth
 import (
 	"context"
 	"errors"
-	authDispatcher "github.com/6reduk/smsaeroclient/internal/dispatcher/auth"
-	"github.com/6reduk/smsaeroclient/internal/httpApiClient"
+	authDispatcher "github.com/6reduk/smsaeroclient/smsaero/dispatcher/auth"
+	"github.com/6reduk/smsaeroclient/smsaero/httpApiClient"
 	clientMock "github.com/6reduk/smsaeroclient/tests/mock/client"
 	"github.com/6reduk/smsaeroclient/tests/stub"
 	responseStub "github.com/6reduk/smsaeroclient/tests/stub/response"

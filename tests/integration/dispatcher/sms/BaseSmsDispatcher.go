@@ -1,8 +1,8 @@
 package sms
 
 import (
-	smsDispatcher "github.com/6reduk/smsaeroclient/internal/dispatcher/sms"
-	"github.com/6reduk/smsaeroclient/internal/httpApiClient"
+	smsDispatcher "github.com/6reduk/smsaeroclient/smsaero/dispatcher/sms"
+	"github.com/6reduk/smsaeroclient/smsaero/httpApiClient"
 	testUtil "github.com/6reduk/smsaeroclient/tests/util"
 	"github.com/stretchr/testify/suite"
 )

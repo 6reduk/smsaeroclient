@@ -1,9 +1,9 @@
 package smsaero
 
 import (
-	smsDispatcher "github.com/6reduk/smsaeroclient/internal/dispatcher/sms"
-	"github.com/6reduk/smsaeroclient/internal/httpApiClient"
-	apiRequest "github.com/6reduk/smsaeroclient/internal/httpApiClient/request"
+	smsDispatcher "github.com/6reduk/smsaeroclient/smsaero/dispatcher/sms"
+	"github.com/6reduk/smsaeroclient/smsaero/httpApiClient"
+	apiRequest "github.com/6reduk/smsaeroclient/smsaero/httpApiClient/request"
 )
 
 type SMSAero struct {

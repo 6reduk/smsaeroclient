@@ -2,8 +2,8 @@ package authDispatcher
 
 import (
 	"context"
-	httpClient "github.com/6reduk/smsaeroclient/internal/httpApiClient"
-	apiRequest "github.com/6reduk/smsaeroclient/internal/httpApiClient/request"
+	httpClient "github.com/6reduk/smsaeroclient/smsaero/httpApiClient"
+	apiRequest "github.com/6reduk/smsaeroclient/smsaero/httpApiClient/request"
 )
 
 const checkAuthPath = "/auth"

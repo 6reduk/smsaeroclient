@@ -1,7 +1,7 @@
 package responseStub
 
 import (
-	"github.com/6reduk/smsaeroclient/internal/httpApiClient"
+	"github.com/6reduk/smsaeroclient/smsaero/httpApiClient"
 	"net/http"
 )
 

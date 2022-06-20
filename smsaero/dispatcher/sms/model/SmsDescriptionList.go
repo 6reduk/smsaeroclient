@@ -1,6 +1,6 @@
 package smsModel
 
-import commonModel "github.com/6reduk/smsaeroclient/internal/dispatcher/common/model"
+import commonModel "github.com/6reduk/smsaeroclient/smsaero/dispatcher/common/model"
 
 type SmsDescriptionsList struct {
 	smsDescriptions SmsDescriptions
